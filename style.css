@@ -409,10 +409,43 @@ a{
     padding:120px 0 100px ;
     text-align: center;
 }
+@media screen and (max-width:950px){
+    .yellow-cards{
+        padding:100px 0 80px ;
+   }
+}
+@media screen and (max-width:600px){
+    .yellow-cards{
+        padding:70px 0 50px ;
+   }
+}
+@media screen and (max-width:950px){
+    .yellow-cards__h3{
+        line-height: 42px;
+        font-size: var(--font-size-xxl);
+   }
+}
+@media screen and (max-width:620px){
+    .yellow-cards__h3{
+        line-height: 30px;
+        font-size: var(--font-size-xl);
+        padding-bottom: 10px;
+   }
+}
+
 .yellow-card{
     padding: 21px 54px 50px;
     text-align: center;
-  
+}
+@media screen and (max-width:950px) { 
+    .yellow-card{
+        padding: 15px 30px 35px;
+}
+}
+@media screen and (max-width:620px){
+    .yellow-card{
+        padding: 8px 22px 32px;
+   }
 }
 .yellow-card__img{
     padding-bottom: 25px;
@@ -421,12 +454,12 @@ a{
 }
 @media screen and (max-width:950px){
     .yellow-card__img{
-        max-width: 68%;
+        max-width: 60%;
    }
 }
 @media screen and (max-width:700px){
     .yellow-card__img{
-        max-width: 82%;
+        max-width: 65%;
    }
 }
 .yellow-card__h4{
@@ -445,6 +478,17 @@ a{
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
  }
+ @media screen and (max-width:950px){
+    .yellow-cards__items{
+        padding-top: 55px; 
+   }
+}
+@media screen and (max-width:600px){
+    .yellow-cards__items{
+        padding-top: 35px; 
+   }
+}
+ 
  .team__h3{
     text-align: center;
     padding-bottom: 45px;
