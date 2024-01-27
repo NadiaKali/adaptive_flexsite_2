@@ -521,36 +521,118 @@ a{
     text-align: center;
     padding-bottom: 45px;
  }
+ @media screen and (max-width:950px){
+    .team__h3{
+        padding-bottom: 30px;
+        font-size: var(--font-size-xxl);
+        line-height: 40px;
+   }
+}
+@media screen and (max-width:600px){
+    .team__h3{
+        padding-bottom: 24px;
+        font-size: var(--font-size-l);
+        line-height: 25px;
+   }
+}
  .team{
     padding: 154px 0 120px;
  }
+ @media screen and (max-width:950px){
+    .team{
+        padding: 110px 0 85px; 
+   }
+}
+@media screen and (max-width:600px){
+    .team{
+        padding: 70px 0 60px;
+   }
+}
  .team__card{
     padding-right: 30px;
     max-width: 33.333%;
     display: flex;
     flex-direction: column;
-    
-   
-    
- }
+}
+@media screen and (max-width:850px){
+    .team__card{
+        padding-right: 18px;
+}
+}
  .team__img{
     max-width:  160px;
     max-height: 160px ;
  }
+ @media screen and (max-width:950px){
+    .team__img{
+        max-width:  130px;
+        max-height: 130px ;
+   }
+}
+@media screen and (max-width:600px){
+    .team__img{
+        max-width:  90px;
+        max-height: 90px ;
+        
+   }
+}
  .team__h2{
     font-size: 30px;
     font-weight: 600;
     line-height: 40px;
     padding: 50px 0 45px;
  }
+ @media screen and (max-width:950px){
+    .team__h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 30px 0 33px;
+   }
+}
+@media screen and (max-width:600px){
+    .team__h2{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        padding: 20px 0 22px;
+   }
+}
  .team__p{
     padding-bottom: 25px;
     font-size: 20px;
     line-height: 30px;
  }
+ @media screen and (max-width:950px){
+    .team__p{
+        padding-bottom: 19px;
+        font-size: 16px;
+        line-height: 24px;
+   }
+}
+@media screen and (max-width:600px){
+    .team__p{
+        padding-bottom: 14px;
+        font-size: 14px;
+        line-height: 18px;
+   }
+}
+ 
  .team__h2--padding{
     padding-top: 61px ;
  }
+ @media screen and (max-width:950px){
+    .team__h2--padding{
+        padding-top: 40px ;
+      
+   }
+}
+@media screen and (max-width:600px){
+    .team__h2--padding{
+        padding-top: 27px ;
+        
+   }
+}
  .team__link{
     color: #000;
 
