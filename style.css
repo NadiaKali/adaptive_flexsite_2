@@ -419,6 +419,16 @@ a{
     max-width: 53%;
     text-align: center;
 }
+@media screen and (max-width:950px){
+    .yellow-card__img{
+        max-width: 68%;
+   }
+}
+@media screen and (max-width:700px){
+    .yellow-card__img{
+        max-width: 82%;
+   }
+}
 .yellow-card__h4{
     padding-bottom: 23px;
     line-height: 35px;
