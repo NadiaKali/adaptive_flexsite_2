@@ -289,9 +289,28 @@ a{
     background-color: var(--color-light_orange);
   
 }
+@media screen and (max-width:950px){
+    .companies{
+     padding: 60px 0;
+    }
+}
 .companies__h3{
     text-align: center;
     padding-bottom: 70px;
+}
+@media screen and (max-width:950px){
+    .companies__h3{
+      line-height: 40px;
+      font-size: var(--font-size-xl);
+      padding-bottom: 35px;
+    }
+}
+@media screen and (max-width:600px){
+    .companies__h3{
+      line-height: 25px;
+      font-size: var(--font-size-l);
+      padding-bottom: 30px;
+    }
 }
 .companies__img{
     max-width: 100%;
